@@ -24,7 +24,6 @@ router.get('/me', auth, async (req, res) => {
     console.log(err.message);
     return res.status(500).send('Server error');
   }
-  res.send('Profile route');
 });
 
 // @route   POST api/profile
