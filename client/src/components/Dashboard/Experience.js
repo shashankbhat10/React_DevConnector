@@ -30,7 +30,6 @@ const Experience = ({ experience, deleteExperience }) => {
   return (
     <Fragment>
       <h2 className="my-2">Experience Credential</h2>
-      <p>{experiences}</p>
       {experiences.length === 0 ? (
         <h4>You have not added any Experience!</h4>
       ) : (
